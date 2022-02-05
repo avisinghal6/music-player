@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+}
+@media screen and(min-width: 992px) {
+}
+
+@media screen and (min-width: 600) {
+}
+/* header */
+
+#music-header {
+  width: 100%;
+  font-size: 20px;
+  height: 10vh;
+  background-image: repeating-linear-gradient(to right, red, blue);
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo-heading {
+  display: inline-block;
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+#logo-heading span {
+  font-size: 2rem;
+  color: yellow;
+}
+
+#logo-heading i {
+  color: white;
+}
+
+#search-pic {
+  display: inline-block;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 60%;
+}
+
+#search-header {
+  width: 40%;
+  height: 5vh;
+  background-color: black;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
