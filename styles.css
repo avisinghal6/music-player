@@ -322,6 +322,10 @@ body {
   text-align: center;
 }
 
+#more-music-type-list li a {
+  text-decoration: none;
+  color: white;
+}
 #more-music-type-list li span {
   position: relative;
   bottom: 60%;
@@ -576,5 +580,8 @@ body {
     margin-right: 5%;
     overflow-x: hidden;
     overflow-y: auto;
+  }
+  #right-queue-list li > img {
+    width: 40%;
   }
 }
